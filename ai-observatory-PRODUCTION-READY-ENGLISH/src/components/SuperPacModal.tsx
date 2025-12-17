@@ -93,8 +93,8 @@ export default function SuperPacModal({ ticker, action, onClose }: Props) {
             <button
               onClick={onClose}
               className="text-slate-400 hover:text-white text-2xl leading-none transition-colors"
-            >
-              ×
+                            ×
+>
             </button>
           </div>
         </div>
