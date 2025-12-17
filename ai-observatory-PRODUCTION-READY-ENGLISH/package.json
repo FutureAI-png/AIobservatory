@@ -1,6 +1,7 @@
 {
   "name": "ai-observatory",
   "private": true,
+    // Vite configuration updated for Vercel deployment
   "version": "0.0.0",
   "type": "module",
   "scripts": {
