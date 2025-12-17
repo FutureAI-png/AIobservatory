@@ -180,7 +180,7 @@ export default function SuperPacModal({ ticker, action, onClose }: Props) {
               <h4 className="text-lg font-bold text-blue-400 mb-4">📋 What Happens Next?</h4>
               <div className="space-y-3 text-sm text-slate-300">
                 <p>
-                  <strong className="text-white">1. Your Investment:</strong> ${selectedPackage.investmentAmount.toFixed(2)} will be used to {action === 'REWARD' ? `buy shares of ${company?.name || ticker}` : `buy shares of ${company?.name || ticker}'s competitors (${recommendedStocks.slice(0, 2).map(s => s.name).join(', ')})`} through regulated brokers (Interactive Brokers, XM, or AvaTrade).
+                  <strong className="text-white">1. Your Investment:</strong> ${selectedPackage.investmentAmount.toFixed(2)} will be used to {action === 'REWARD' ? `buy shares of ${company?.name || ticker}` : `buy shares of ${company?.name || ticker}'s competitors (${recommendedStocks.slice(0, 2).map(s => s).join(', ')})`} through regulated brokers (Interactive Brokers, XM, or AvaTrade).
                 </p>
                 <p>
                   <strong className="text-white">2. When:</strong> Shares are purchased within <strong>24 hours</strong> of payment confirmation during market hours (Mon-Fri, 9:30 AM - 4:00 PM EST).
