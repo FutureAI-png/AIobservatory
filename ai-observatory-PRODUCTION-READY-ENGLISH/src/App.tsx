@@ -184,7 +184,7 @@ function App() {
               </p>
               <BadgeExplainer />
             </div>
-            <CompanyGrid onAction={(action) => setSelected(action)} />
+            <CompanyGrid onAction={(ticker, action) => setSelected({ ticker, action })} />
           </div>
 
           {/* Citizen Tracker - Sidebar */}
