@@ -1,0 +1,12 @@
+# robots.txt for AI Observatory (AIonXC)
+# https://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://aionxc.com/sitemap.xml
+
+# Disallow sensitive paths (if any)
+# Disallow: /admin/
+# Disallow: /api/
